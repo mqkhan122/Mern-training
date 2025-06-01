@@ -1,9 +1,12 @@
 import React from 'react'
+import '../App.css'
+import { GiHamburgerMenu } from "react-icons/gi";
+
 
 const Header = () => {
   return (
     <>
-    
+    <input type="checkbox" id='check'/>
     <nav className='flex gap-20 items-center w-full p-5 shadow-lg'>
         <h1 className='font-bold text-3xl text-gray-500'>Scrap </h1>
 
@@ -13,11 +16,16 @@ const Header = () => {
             <li>Scrap Rates</li>
         </ul>
 
+
         <div className='w-full'>
         <button class="bg-gray-700 hover:bg-gray-500 float-end text-white font-bold py-2 px-4 rounded">
              Get Started
         </button>
         </div>
+
+        <label htmlFor="check">
+            <GiHamburgerMenu />
+        </label>
     </nav>
 
     <section className='flex justify-between p-14 lg:flex-row md:flex-col flex-col items-center  '>

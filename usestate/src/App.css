@@ -1,4 +1,4 @@
-/* #root {
+#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,35 +39,4 @@
 
 .read-the-docs {
   color: #888;
-} */
-
-#check{
-  display: none;
-}
-nav label{
-  display: none;
-}
-
-#check:checked~nav ul{
-  display: block;
-}
-@media screen and (max-width: 700px){
-  nav label{
-    display: block;
-  }
-  nav ul{
-    position: absolute;
-    top: 80px;
-    display: none;
-    width: 100%;
-    background-color: rgba(128, 128, 128, 0.906);
-    left: 0;
-  }
-  nav ul li{
-    padding: 10px;
-    color: white;
-  }
-  nav button{
-    display: none;
-  }
 }

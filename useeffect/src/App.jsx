@@ -1,0 +1,26 @@
+import React from 'react'
+import Ueffct1 from './Ueffct1'
+import Ueffect2 from './Ueffect2'
+import Ueffect3 from './Ueffect3'
+
+const App = () => {
+  return (
+    <>
+    
+        {/* // useEffect without any dependency */}
+
+        <Ueffct1 />
+
+        {/* useEffect with empty depenedency */}
+
+        <Ueffect2 />
+
+        {/* useEffect with dependency */}
+
+        <Ueffect3 />
+
+    </>
+  )
+}
+
+export default App

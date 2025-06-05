@@ -6,6 +6,7 @@ import Ueffect3 from './Ueffect3'
 const App = () => {
   return (
     <>
+    {/* this is also example of useEffect with multiple components */}
     
         {/* // useEffect without any dependency */}
 

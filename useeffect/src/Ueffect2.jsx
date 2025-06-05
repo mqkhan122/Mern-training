@@ -5,7 +5,7 @@ const Ueffect2 = () => {
     // useEffect with empty depenedency
 
 
-    useEffect(()=>{console.log("working")},[])
+    useEffect(()=>{console.log(" Second working")},[])
   return (
     <>
     

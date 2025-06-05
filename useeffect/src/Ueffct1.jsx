@@ -4,7 +4,7 @@ const Ueffct1 = () => {
 
     // useEffect without any dependency
 
-    useEffect(()=>{console.log("Working...!!")})
+    useEffect(()=>{console.log("First Working...!!")})
   return (
     <>
     

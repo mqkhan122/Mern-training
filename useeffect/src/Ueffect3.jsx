@@ -5,7 +5,7 @@ const Ueffect3 = () => {
 
     // useEffect with dependency
 
-    useEffect(()=>{console.log("working")},[count])
+    useEffect(()=>{console.log("third working")},[count])
   return (
     <>
     <h1> {count} </h1>
